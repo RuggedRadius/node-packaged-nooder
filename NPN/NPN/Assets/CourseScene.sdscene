@@ -1,0 +1,29 @@
+!SceneAsset
+Id: 26a7e56f-33ca-416e-82cf-dbef68541b54
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! d1a7e16a-3277-401d-9bd9-db8ece36721c
+    Parts:
+        -   Entity:
+                Id: d1a7e16a-3277-401d-9bd9-db8ece36721c
+                Name: Terrain
+                Components:
+                    86515832ba1a5e3513d21a6e860dc285: !TransformComponent
+                        Id: e747f059-9a4c-4f4a-a756-e0bb8e54cf70
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b29812bec930e649e4174545de439bf2: !NPN.Scripts.Terrain.TerrainController,NPN
+                        Id: c32a242c-1af3-4d81-82fc-d3be997f9ba6
+                        Settings:
+                            NoiseType: OpenSimplex2
+                            Frequency: 0.01
+                            Seed: 1337
+                        Width: 500
+                        Depth: 500
+                        MaxHeight: 20.0

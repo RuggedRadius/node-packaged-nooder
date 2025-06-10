@@ -147,19 +147,6 @@ Hierarchy:
                         Id: 54545d87-8812-4454-a68f-074843b439bd
                         Animations:
                             6c1719582e3cbf3e6d31c48996b94c32~Walk: 47b08e53-dc69-41a1-9419-b52d41105dad:Models/Zombies/Walking_mixamo.com
-                    c529c5b802f72b6d798b4a842be50421: !StaticColliderComponent
-                        Id: 4c61335a-336b-4e25-a645-cb4b509a27aa
-                        CanSleep: false
-                        Restitution: 0.0
-                        Friction: 0.5
-                        RollingFriction: 0.0
-                        CcdMotionThreshold: 0.0
-                        CcdSweptSphereRadius: 0.0
-                        IsTrigger: false
-                        AlwaysUpdateNaviMeshCache: false
-                        ColliderShapes:
-                            8639e006635150f50b66c4c644bd3ccb: !StaticMeshColliderShapeDesc
-                                Model: 951c3779-5865-494e-b79e-8cff62c5c36f:Models/Zombies/Walking
                     f200d901e29b28ec3c61042b1feff787: !NPN.Scripts.Zombies.ZombieController,NPN
                         Id: dcf6d1dc-44fe-49aa-9eb8-22f75da760e6
                         Speed: 1.0
