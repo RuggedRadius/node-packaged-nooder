@@ -1,0 +1,19 @@
+!Model
+Id: 0a7abb70-8016-4e8b-a9c8-053db9effc24
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file Golf Drive.fbx
+Skeleton: c0cc73e3-6ac1-4986-b2d7-d2f1a646622c:Models/Golfer/Golf Drive Skeleton
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    13632f40d4ad91d0131d32a2fc7bf7f2:
+        Name: Beta_HighLimbsGeoSG3
+        MaterialInstance:
+            Material: 3f3d7826-f448-4a9f-a583-a0cdd7672c4a:Models/Golfer/Beta_HighLimbsGeoSG3
+    c0cdbf92c491829414e1c8b33fbfce89:
+        Name: Beta_Joints_MAT1
+        MaterialInstance:
+            Material: bedc7610-a7e0-42a3-8a46-80ce5a8c461c:Models/Golfer/Beta_Joints_MAT1
+Modifiers: {}
+~SourceHashes:
+    9641190f4f19270fdcc915c544928a7c~Golf Drive.fbx: 5c31cdbbd987e48cb31b6aa16f0a04d2

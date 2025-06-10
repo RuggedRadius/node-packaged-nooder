@@ -1,0 +1,77 @@
+!Skeleton
+Id: c0cc73e3-6ac1-4986-b2d7-d2f1a646622c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file Golf Drive.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    0b65e11dbc58efff4789bd3b9a051869: {Name: RootNode, Depth: 0}
+    1920f5671fdf3b571a53e8d61f7bab98: {Name: Hips, Depth: 1}
+    9ef84e52286ed338adb384e7827a872e: {Name: Spine, Depth: 2}
+    d0e183d2183b818587bf41fffdf10bbb: {Name: Spine1, Depth: 3}
+    852c3d326f09d6ca6cbc098fe9779c2f: {Name: Spine2, Depth: 4}
+    9f7c702c3890286fb83b21c3b6dd60ae: {Name: Neck, Depth: 5}
+    2ecbc9fd9dbd3123a41922f4a5115c91: {Name: Head, Depth: 6}
+    81c58867f493e73e8025b658cb849353: {Name: HeadTop_End, Depth: 7}
+    65a3b9bcd5e3b78d8cd3a9c2ad2b894e: {Name: RightShoulder, Depth: 5}
+    2e2b26c08438d64b9658557a813bf3f8: {Name: RightArm, Depth: 6}
+    77507cb36a810f561fec2dd72b5c615a: {Name: RightForeArm, Depth: 7}
+    a77ef8b5ed0e3545af50a62ba43b4896: {Name: RightHand, Depth: 8}
+    031c73b2b3c57e80658f22d5edd25200: {Name: RightHandThumb1, Depth: 9}
+    748dd65e5c61186ad1825f9ca2371200: {Name: RightHandThumb2, Depth: 10}
+    51460350ec1c9ccb0a0f8eb4d9b44540: {Name: RightHandThumb3, Depth: 11}
+    079b11147a1c38665090c60baf676879: {Name: RightHandThumb4, Depth: 12}
+    31603e3d9cb7fd15d7eb65fa34d04bec: {Name: RightHandIndex1, Depth: 9}
+    aa783776bd6752c83d01637e611b4dd0: {Name: RightHandIndex2, Depth: 10}
+    383e10021331b4b377f7361c540bdfa3: {Name: RightHandIndex3, Depth: 11}
+    8397863f5aa68a077a94372602c40121: {Name: RightHandIndex4, Depth: 12}
+    ab96df7aecf769bda80b4a75e714f086: {Name: RightHandMiddle1, Depth: 9}
+    d97fe903a2f5b4e771fd954755e59ed4: {Name: RightHandMiddle2, Depth: 10}
+    605b0f7957c0e6de92677ebc180104f7: {Name: RightHandMiddle3, Depth: 11}
+    32c9d1754b2baa3e911c86cfdcb4a013: {Name: RightHandMiddle4, Depth: 12}
+    bd0d228a6cb3098edcc08939673aaf28: {Name: RightHandRing1, Depth: 9}
+    9d85f369b8a891cc3ea18dd929955d99: {Name: RightHandRing2, Depth: 10}
+    b9b93f5cfb04e3027df7784d5919fc7b: {Name: RightHandRing3, Depth: 11}
+    52b9c00b1856041147aa044bdd321d5e: {Name: RightHandRing4, Depth: 12}
+    0b14f2913ed8479d17326d8ff4439c31: {Name: RightHandPinky1, Depth: 9}
+    a9bfc74b573be2c7a6035907f7a8f6b5: {Name: RightHandPinky2, Depth: 10}
+    c631b634c6b9b2512106a36cace903ed: {Name: RightHandPinky3, Depth: 11}
+    b99c2bf95afb7fad0a02015886388157: {Name: RightHandPinky4, Depth: 12}
+    8874e7178feeb147ec0ae6dfdc5db473: {Name: LeftShoulder, Depth: 5}
+    cae1dc1a611d148a9faced83e380372b: {Name: LeftArm, Depth: 6}
+    0a69d90376ade457f87e90496cab0da2: {Name: LeftForeArm, Depth: 7}
+    44f3955a67e8dbf3e4580409ea26117a: {Name: LeftHand, Depth: 8}
+    680848c1b9140ba3cbee65af42c52155: {Name: LeftHandThumb1, Depth: 9}
+    fee4cd6e28696e9bc4ab773d06b0ce8d: {Name: LeftHandThumb2, Depth: 10}
+    3399937dc9fedafd1d7f6a656230f194: {Name: LeftHandThumb3, Depth: 11}
+    b85914fac0ea7a4e6ccedad2b641039d: {Name: LeftHandThumb4, Depth: 12}
+    c3f12c1dded93d0f23198bf98f80af7c: {Name: LeftHandIndex1, Depth: 9}
+    0a149774a2c10add24d104682df439e8: {Name: LeftHandIndex2, Depth: 10}
+    a8d262fa4f0e9c7e414c84e3de56f2ff: {Name: LeftHandIndex3, Depth: 11}
+    0409d1677c2cc727eba066f8d595dab5: {Name: LeftHandIndex4, Depth: 12}
+    1b0b39d332b62a71be3982010e65daba: {Name: LeftHandMiddle1, Depth: 9}
+    367a05f9fa9c1ab9b3c6595587b8a38f: {Name: LeftHandMiddle2, Depth: 10}
+    9da91a59f759fde5960402b7ab101427: {Name: LeftHandMiddle3, Depth: 11}
+    b713d0141a78bbdda90c4b9823468593: {Name: LeftHandMiddle4, Depth: 12}
+    8505c9ae2ee0946db7708e5a8884652c: {Name: LeftHandRing1, Depth: 9}
+    e423a9502620e38e22694caa48494eb8: {Name: LeftHandRing2, Depth: 10}
+    a9bc50f9989f3837854718ab25287584: {Name: LeftHandRing3, Depth: 11}
+    40b30fbd408447953fa0bb1ec4fec3ec: {Name: LeftHandRing4, Depth: 12}
+    aba4e676acd2e5c3f60357c0f5033b55: {Name: LeftHandPinky1, Depth: 9}
+    5329fe1e6d54562339a9424f15975f5a: {Name: LeftHandPinky2, Depth: 10}
+    cde206b193c6cc7cad057970d8a3ac1a: {Name: LeftHandPinky3, Depth: 11}
+    fd6eaa48876a71e35968876101eeb0bf: {Name: LeftHandPinky4, Depth: 12}
+    c242da55b81ab762be096d20a6733a7e: {Name: RightUpLeg, Depth: 2}
+    0dd68e1b9ca8d5f165adc1d2dca1a927: {Name: RightLeg, Depth: 3}
+    48223b6464ac312ae5ccff4330bafa24: {Name: RightFoot, Depth: 4}
+    077c23f92d3d1e0845bfb2ab68f6c89d: {Name: RightToeBase, Depth: 5}
+    cb3459c029c683f298c3e1c625f9681d: {Name: RightToe_End, Depth: 6}
+    a0f89fb254f0f9d31ed86235503d8cb6: {Name: LeftUpLeg, Depth: 2}
+    6229f36fb9831b5b71aa2078a00d77dd: {Name: LeftLeg, Depth: 3}
+    8c261722442a04b9a5455256133a2962: {Name: LeftFoot, Depth: 4}
+    55c9092b05b912a4101a056c24710cc5: {Name: LeftToeBase, Depth: 5}
+    6407cac6a0a07c36fe6196ee2fae9361: {Name: LeftToe_End, Depth: 6}
+    2d183491074df28a7f6a14764e52958f: {Name: Beta_Surface, Depth: 1}
+    4b79569d6f0b97909e11060fdc195d86: {Name: Beta_Joints, Depth: 1}
+~SourceHashes:
+    d7d9f8b1e6733387db40344cf05b04ab~Golf Drive.fbx: 5c31cdbbd987e48cb31b6aa16f0a04d2

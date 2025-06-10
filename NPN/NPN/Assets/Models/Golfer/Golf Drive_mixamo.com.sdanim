@@ -1,0 +1,20 @@
+!Animation
+Id: 04ccee04-9e16-456e-88b4-6eb6eb773a9d
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file Golf Drive.fbx
+AnimationStack: 0
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: c0cc73e3-6ac1-4986-b2d7-d2f1a646622c:Models/Golfer/Golf Drive Skeleton
+RootMotion: false
+PreviewModel: 0a7abb70-8016-4e8b-a9c8-053db9effc24:Models/Golfer/Golf Drive
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:05.8666600
+~SourceHashes:
+    295e1f702f41fa337c971222512e8c2e~Golf Drive.fbx: 5c31cdbbd987e48cb31b6aa16f0a04d2
