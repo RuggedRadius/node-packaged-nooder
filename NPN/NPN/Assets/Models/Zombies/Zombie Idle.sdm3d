@@ -1,0 +1,19 @@
+!Model
+Id: cad5559c-4665-4a26-ab66-001ec795322c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file Zombie Idle.fbx
+Skeleton: 8fd07913-f3da-4bfd-9f77-b438d4b76304:Models/Zombies/Zombie Idle Skeleton
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    86202868af9cda8cb8c283237ef1f827:
+        Name: Beta_HighLimbsGeoSG3
+        MaterialInstance:
+            Material: 6a8eb68c-c6f7-4e81-96a6-57f6169256b9:Models/Zombies/Beta_HighLimbsGeoSG3_3
+    8a6d53108d48d9bedbf3bfc691bb073f:
+        Name: Beta_Joints_MAT1
+        MaterialInstance:
+            Material: 69459186-924a-4f39-a4b6-db9a9a4ebb52:Models/Zombies/Beta_Joints_MAT1_3
+Modifiers: {}
+~SourceHashes:
+    6bae2832ca96077aaa9c8c18b8acf9df~Zombie Idle.fbx: 7b0fe2dd477066d5b6a856806d411768

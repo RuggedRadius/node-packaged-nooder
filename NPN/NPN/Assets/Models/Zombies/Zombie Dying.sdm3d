@@ -1,0 +1,19 @@
+!Model
+Id: e04091b3-9e8a-45c2-a5e2-06a4bcd269bd
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file Zombie Dying.fbx
+Skeleton: 2f5f4b7b-50b2-4151-bf4a-1a25a0460d1f:Models/Zombies/Zombie Dying Skeleton
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    48ac9e50993e0a8e5f56c89e07135b7a:
+        Name: Beta_HighLimbsGeoSG3
+        MaterialInstance:
+            Material: 2c837c5b-7acd-4ca4-b120-699e0f799a81:Models/Zombies/Beta_HighLimbsGeoSG3_2
+    c1253477f7b42867b040511639ce8486:
+        Name: Beta_Joints_MAT1
+        MaterialInstance:
+            Material: 037bb88c-1fbc-4f8a-98ff-314bd361581b:Models/Zombies/Beta_Joints_MAT1_2
+Modifiers: {}
+~SourceHashes:
+    ae9906f3ce8e42c2ee2cf987cd3b8d32~Zombie Dying.fbx: c3ed4afe74552240c2fff3ec2afe19b3

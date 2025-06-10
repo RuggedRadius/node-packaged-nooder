@@ -1,0 +1,77 @@
+!Skeleton
+Id: 2f5f4b7b-50b2-4151-bf4a-1a25a0460d1f
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file Zombie Dying.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    421d4ee2d45560608cfdeef0c307c989: {Name: RootNode, Depth: 0}
+    6585b61b995d9674c78d961569faedb5: {Name: Hips, Depth: 1}
+    270ad1aa053f41e3d263dc23b3407678: {Name: Spine, Depth: 2}
+    bd2162dacc449747ef4780fd1f7a6850: {Name: Spine1, Depth: 3}
+    5e56cfb58ecc0cd64072224c8e540678: {Name: Spine2, Depth: 4}
+    b7f5dc5116fcd920761833d3c3c0b37a: {Name: Neck, Depth: 5}
+    9e748cdedf7cfc7f72f9845c43382c18: {Name: Head, Depth: 6}
+    efd5bb0e8c97d79d2e94f8f09cd5d581: {Name: HeadTop_End, Depth: 7}
+    db3328aa21455cb6ff5ce254e0c38e2e: {Name: RightShoulder, Depth: 5}
+    d3196e58c5f0a4cd17c35c87b16f3fc5: {Name: RightArm, Depth: 6}
+    9cff9d552a63678b65e6db11eb09e790: {Name: RightForeArm, Depth: 7}
+    2aa2ca9d0d656269a43f394444f66790: {Name: RightHand, Depth: 8}
+    d559caf1625551e0b2988ed64d753951: {Name: RightHandThumb1, Depth: 9}
+    fde6014b8876cbb5ddcbb498cdf8d423: {Name: RightHandThumb2, Depth: 10}
+    af6ee6254e2ba59e340ed4525ca3ea1b: {Name: RightHandThumb3, Depth: 11}
+    fed75afb5496caf9ee768465f3487852: {Name: RightHandThumb4, Depth: 12}
+    4819afb6e2b2a8f3c84b3fb088a8ae2e: {Name: RightHandIndex1, Depth: 9}
+    60436438820fb7b00ea364634c29529a: {Name: RightHandIndex2, Depth: 10}
+    6dfd3d393fef0f19e8eef97f6ec32f12: {Name: RightHandIndex3, Depth: 11}
+    56322da776b4ca7d97a33cb0d67a255c: {Name: RightHandIndex4, Depth: 12}
+    a0e60b81a6f0af0ff335ee942f4c4960: {Name: RightHandMiddle1, Depth: 9}
+    1ae2576226c57a6d264ca250422c7b46: {Name: RightHandMiddle2, Depth: 10}
+    e72e004fa6b24e437007a50ba6c11431: {Name: RightHandMiddle3, Depth: 11}
+    92813f7101d491a84317d96fa9dd4b2a: {Name: RightHandMiddle4, Depth: 12}
+    8df8a6f918a3be861e23a89faac1954c: {Name: RightHandRing1, Depth: 9}
+    f4abb49fb5b6f70c61dc49398bb3e979: {Name: RightHandRing2, Depth: 10}
+    72d36a3630b3194cce202d6af2299948: {Name: RightHandRing3, Depth: 11}
+    a40867794eb372d46bbc4c7e94e4df7c: {Name: RightHandRing4, Depth: 12}
+    a3b3364e9dcd01699728009989668045: {Name: RightHandPinky1, Depth: 9}
+    8a983e2b6abaf2968030df093812ce2b: {Name: RightHandPinky2, Depth: 10}
+    1950bc24f1db5ebadf390c44284e59f4: {Name: RightHandPinky3, Depth: 11}
+    05f355043bcfd67bbe174025652ac4e5: {Name: RightHandPinky4, Depth: 12}
+    cc287756c99869f8b63ba742257ffca2: {Name: LeftShoulder, Depth: 5}
+    7f9f871d02de19f4a599db470e7df039: {Name: LeftArm, Depth: 6}
+    a6167d6d9d32e5357baa9ebd411f410a: {Name: LeftForeArm, Depth: 7}
+    5bbcf27e4fcc36e90a0ca16bda9463e3: {Name: LeftHand, Depth: 8}
+    706671bba4694f182adf6f17549a5bc3: {Name: LeftHandThumb1, Depth: 9}
+    f561d689152ce012262f214829c83b83: {Name: LeftHandThumb2, Depth: 10}
+    3e614e0df618825a576c7fc81361466d: {Name: LeftHandThumb3, Depth: 11}
+    1bfbf5012cd5a0069d925ce07902656f: {Name: LeftHandThumb4, Depth: 12}
+    6a0a54d454c5bb4cc2c8bab4eaad3ff1: {Name: LeftHandIndex1, Depth: 9}
+    c47a5947b297b8f6285c4da77f081655: {Name: LeftHandIndex2, Depth: 10}
+    c8b63b8d79bd8bec2e89df8fd5e9f608: {Name: LeftHandIndex3, Depth: 11}
+    12a6688b7c0a1abf1cfd8dc56fc341d7: {Name: LeftHandIndex4, Depth: 12}
+    c5a8129f3242c564610efde5921429b1: {Name: LeftHandMiddle1, Depth: 9}
+    1d91dbd18e3c11851884d8561e1e34a9: {Name: LeftHandMiddle2, Depth: 10}
+    5d77700b6ca0f2398ba82ed5e3dc0185: {Name: LeftHandMiddle3, Depth: 11}
+    7e454678c76c65a1391c1c2ea362a38d: {Name: LeftHandMiddle4, Depth: 12}
+    e0dbf7092e7f36fffc1ad6345a5b693d: {Name: LeftHandRing1, Depth: 9}
+    8bdb9981cef0f984ca443e3b79b8e499: {Name: LeftHandRing2, Depth: 10}
+    2b3227d7053d45189fd42b428ccf9de5: {Name: LeftHandRing3, Depth: 11}
+    ecaf48e1b0b73dd39526dc8576dc7c3f: {Name: LeftHandRing4, Depth: 12}
+    bfe3ab416db98a4f9931b4b3264cf6b4: {Name: LeftHandPinky1, Depth: 9}
+    25e3a5afb2a9a57f7110b13b0a1a249b: {Name: LeftHandPinky2, Depth: 10}
+    bdfb64cdcc6701f54eb3f474fa092267: {Name: LeftHandPinky3, Depth: 11}
+    be37df3296ad571d4df8895dcb18f395: {Name: LeftHandPinky4, Depth: 12}
+    29b4b03de1aad5431f356a4087916555: {Name: RightUpLeg, Depth: 2}
+    a2e79e62ce5768aa81fce656cefbfe89: {Name: RightLeg, Depth: 3}
+    6ee3bb9180f2e6fa1609cac2d35f1011: {Name: RightFoot, Depth: 4}
+    e6f1425b78f364e2c0198cd5f9096c4c: {Name: RightToeBase, Depth: 5}
+    317e5556233ad490268e2830f8d1988f: {Name: RightToe_End, Depth: 6}
+    cc9a0863ffbc923812f5b40e9bc54b0b: {Name: LeftUpLeg, Depth: 2}
+    27a7297938d6e505c40449b7baa24bb7: {Name: LeftLeg, Depth: 3}
+    22b78f9da6380ac31b5cc5d0e779c2b3: {Name: LeftFoot, Depth: 4}
+    48c5e10e6bb818f96360a5d3de917ccb: {Name: LeftToeBase, Depth: 5}
+    94343968a8f33dee61775b1146708c44: {Name: LeftToe_End, Depth: 6}
+    fbc4431a99fea785de02b30f4e789f15: {Name: Beta_Surface, Depth: 1}
+    ff33b19bbd8d303debb26287dd54a5c3: {Name: Beta_Joints, Depth: 1}
+~SourceHashes:
+    92dfcd4436dc1aab2e93e1090c14030a~Zombie Dying.fbx: c3ed4afe74552240c2fff3ec2afe19b3

@@ -147,6 +147,8 @@ Hierarchy:
                         Id: 54545d87-8812-4454-a68f-074843b439bd
                         Animations:
                             6c1719582e3cbf3e6d31c48996b94c32~Walk: 47b08e53-dc69-41a1-9419-b52d41105dad:Models/Zombies/Walking_mixamo.com
+                            6d8677655503ad2494ad29f1642a60ef~Idle: 0bbc57ae-936d-440f-a3af-0394434fd801:Models/Zombies/Zombie Idle_mixamo.com
+                            a2bca0852f35b0d7270efdadca6c1f56~Dying: f8e65185-62b0-4ca7-89ea-2c5ed56adc0a:Models/Zombies/Zombie Dying_mixamo.com
                     f200d901e29b28ec3c61042b1feff787: !NPN.Scripts.Zombies.ZombieController,NPN
                         Id: dcf6d1dc-44fe-49aa-9eb8-22f75da760e6
                         Speed: 1.0

@@ -1,0 +1,20 @@
+!Animation
+Id: 0bbc57ae-936d-440f-a3af-0394434fd801
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file Zombie Idle.fbx
+AnimationStack: 0
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: 8fd07913-f3da-4bfd-9f77-b438d4b76304:Models/Zombies/Zombie Idle Skeleton
+RootMotion: false
+PreviewModel: cad5559c-4665-4a26-ab66-001ec795322c:Models/Zombies/Zombie Idle
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:04.2333300
+~SourceHashes:
+    943d8f22f9eeeb959463bbb8e9c071e4~Zombie Idle.fbx: 7b0fe2dd477066d5b6a856806d411768

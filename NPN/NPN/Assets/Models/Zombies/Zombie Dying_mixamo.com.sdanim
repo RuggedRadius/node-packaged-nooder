@@ -1,0 +1,20 @@
+!Animation
+Id: f8e65185-62b0-4ca7-89ea-2c5ed56adc0a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file Zombie Dying.fbx
+AnimationStack: 0
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: 2f5f4b7b-50b2-4151-bf4a-1a25a0460d1f:Models/Zombies/Zombie Dying Skeleton
+RootMotion: false
+PreviewModel: e04091b3-9e8a-45c2-a5e2-06a4bcd269bd:Models/Zombies/Zombie Dying
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:03.3333300
+~SourceHashes:
+    e542efa9d180ca587b3ab0631258e6ad~Zombie Dying.fbx: c3ed4afe74552240c2fff3ec2afe19b3
