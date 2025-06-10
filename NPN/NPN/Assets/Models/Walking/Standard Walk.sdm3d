@@ -1,0 +1,19 @@
+!Model
+Id: 5c300491-42e4-43d0-96d3-e9fce5e1ede8
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file Standard Walk.fbx
+Skeleton: f6362a04-ff15-44d5-97c9-1fe6157b7a23:Models/Walking/Standard Walk Skeleton
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    acc096db81efe7f8275710d94adf59d6:
+        Name: Beta_HighLimbsGeoSG3
+        MaterialInstance:
+            Material: 163558ba-cca0-4e00-9071-de1dcd98beb0:Models/Walking/Beta_HighLimbsGeoSG3
+    c0279e4b7774b58bd744eced04b6c224:
+        Name: Beta_Joints_MAT1
+        MaterialInstance:
+            Material: 97f4809c-a7cf-4f2a-99f7-35f2bfc79821:Models/Walking/Beta_Joints_MAT1
+Modifiers: {}
+~SourceHashes:
+    53aa9fd800448e9d935552ccec4922c8~Standard Walk.fbx: ced314f72540885cbbe7323713a6b6d6

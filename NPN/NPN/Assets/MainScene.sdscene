@@ -26,7 +26,7 @@ Hierarchy:
                         Id: 5fa65484-368e-4a55-badf-ac02f7e647e4
                         Position: {X: 0.0, Y: 0.0, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Scale: {X: 3.8031611, Y: 1.0, Z: 6.3452835}
                         Children: {}
                     2d9024e6fae8c397d750cf525dd3e0a8: !ModelComponent
                         Id: 65a69a4a-e1ea-4efe-bfae-a7b54bbef6b2
@@ -214,11 +214,11 @@ Hierarchy:
                             Skybox: 068d064e-8465-4ed9-bec7-cb73d632f223:Skybox
         -   Entity:
                 Id: c7590c96-da11-4223-afcb-7c6059baf31e
-                Name: Golf Drive
+                Name: Player
                 Components:
                     f46aad71d70dd53b8f5438647f35d019: !TransformComponent
                         Id: 38d081b9-0931-4c87-9def-f8ae83184169
-                        Position: {X: 0.7959828, Y: 0.0, Z: 6.3461566}
+                        Position: {X: 1.0, Y: 1.0695384, Z: 6.0}
                         Rotation: {X: 0.0, Y: 0.9999993, Z: 0.0, W: 0.0011963404}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -230,6 +230,7 @@ Hierarchy:
                         Id: dab0cd41-7487-4a3f-9c3f-ca4adf34aac6
                         Animations:
                             c3b3c354ed5c01ab88600a301cd9cb2f~Drive: 04ccee04-9e16-456e-88b4-6eb6eb773a9d:Models/Golfer/Golf Drive_mixamo.com
+                            924fe06bb106c2b19b6c64a3baec415a~Walking: d969cafe-2d88-4f40-85af-ee9ff1e17eef:Models/Walking/Standard Walk_mixamo.com
                     f180306f3aa443ff5cd05518ae7493d7: !NPN.Scripts.Golfer.GolferController,NPN
                         Id: 7553761b-0a62-4de0-ab02-ed1ccb0f614e
                         Speed: 1.0
@@ -237,6 +238,22 @@ Hierarchy:
                         golfBallPrefab: a250966e-9c2c-4150-89ec-5fbef76e899c:GolfBall
                         golfBallReset: ref!! b190483b-4f9e-4936-8e7c-b855d18504f0
                         GamePad: true
+                    32c929b2ca387c53da59c3aa6200866d: !CharacterComponent
+                        Id: 230093d0-ab78-4e69-af99-037676f8aaa7
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        FallSpeed: 10.0
+                        MaxSlope: {Radians: 0.7853982}
+                        JumpSpeed: 5.0
+                        Gravity: {X: 0.0, Y: -10.0, Z: 0.0}
+                        ColliderShapes:
+                            232c279400d99d4c470b44b6fdbda158: !CapsuleColliderShapeDesc
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
         -   Folder: null
             Entity:
                 Id: cb256947-6bd9-4788-932b-a0bbbdff6d6f

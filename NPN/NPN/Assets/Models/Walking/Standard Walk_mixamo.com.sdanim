@@ -1,0 +1,20 @@
+!Animation
+Id: d969cafe-2d88-4f40-85af-ee9ff1e17eef
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file Standard Walk.fbx
+AnimationStack: 0
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: f6362a04-ff15-44d5-97c9-1fe6157b7a23:Models/Walking/Standard Walk Skeleton
+RootMotion: false
+PreviewModel: 5c300491-42e4-43d0-96d3-e9fce5e1ede8:Models/Walking/Standard Walk
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:01.1666600
+~SourceHashes:
+    3e78eb0734f9c0f60e38792ea8abb158~Standard Walk.fbx: ced314f72540885cbbe7323713a6b6d6

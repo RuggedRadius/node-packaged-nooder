@@ -1,4 +1,5 @@
 ﻿using Stride.Animations;
+using Stride.Core.Mathematics;
 using Stride.Engine;
 using Stride.Input;
 using Stride.Physics;
@@ -21,8 +22,14 @@ namespace NPN.Scripts.Golfer
 
     public bool GamePad { get; set; } = true;
 
+    private CharacterComponent character;
+
     public override void Start()
     {
+      base.Start();
+
+      character = Entity.Get<CharacterComponent>();
+
       _animations = Entity.Get<AnimationComponent>();
 
       _currentAnimation = _animations.Play("Drive");
@@ -30,11 +37,31 @@ namespace NPN.Scripts.Golfer
 
     public override void Update()
     {
-      if(GamePad && Input.HasGamePad)
+      if (character == null)
+        return;
+
+      float dt = (float)Game.UpdateTime.Elapsed.TotalSeconds;
+
+      if (GamePad && Input.HasGamePad)
       {
         GamePadState gp = Input.DefaultGamePad.State;
+        
+        Vector3 forward = Entity.Transform.WorldMatrix.Forward;
+        Vector3 right = Entity.Transform.WorldMatrix.Right;
 
-        if(gp.RightTrigger > 0.5)
+        Vector3 moveDirection = (forward * gp.LeftThumb.Y + right * gp.LeftThumb.X);
+        moveDirection.Y = 0;
+        moveDirection.Normalize();
+
+        float moveSpeed = 5f;
+        Vector3 finalMovement = moveDirection * moveSpeed;
+
+        character.SetVelocity(finalMovement);
+
+        if (!_animations.IsPlaying("Walking"))
+          _currentAnimation = _animations.Play("Walking");
+
+        if (gp.RightTrigger > 0.5)
         {
           DriveBall();
         }
