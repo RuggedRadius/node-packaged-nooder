@@ -24,12 +24,26 @@ Hierarchy:
                         Id: 5fa65484-368e-4a55-badf-ac02f7e647e4
                         Position: {X: 0.0, Y: 0.0, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 10.0, Y: 1.0, Z: 10.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     2d9024e6fae8c397d750cf525dd3e0a8: !ModelComponent
                         Id: 65a69a4a-e1ea-4efe-bfae-a7b54bbef6b2
                         Model: 14e30d13-11d0-409b-aa64-c9c8d623e6e5:Ground
                         Materials: {}
+                    c6534c1b0c28f2de93f76ee8fd370388: !StaticColliderComponent
+                        Id: ef355c20-80f6-4111-95ca-d44ef1af09eb
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            83f4cb0e4c9c7110a12556c97dd7e9d0: !StaticPlaneColliderShapeDesc
+                                Normal: {X: 0.0, Y: 1.0, Z: 0.0}
+                                Offset: 0.0
         -   Folder: null
             Entity:
                 Id: 244a90ed-5caf-4db6-bac0-19636128b91e
@@ -74,11 +88,11 @@ Hierarchy:
                         Intensity: 20.0
         -   Entity:
                 Id: 59a16dbe-9e05-4de9-80c6-a75c8aa291ff
-                Name: Ball
+                Name: Sphere
                 Components:
                     c985b2a8430e5ca17e873b188a766dde: !TransformComponent
                         Id: 69637cf3-3565-4b54-8daa-82b74773f573
-                        Position: {X: 0.0, Y: 0.5, Z: 0.0}
+                        Position: {X: 0.0, Y: 6.079403, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -86,8 +100,26 @@ Hierarchy:
                         Id: 8dab0602-f38c-4b34-a187-8fd48b9f75f0
                         Model: 7fb111e9-0301-483b-8cc6-7c12d9e32d8c:Sphere
                         Materials: {}
-                    dac29b89255f0faa1c868a6ce34438d7: !NPN.Scripts.Test.BallController,NPN
-                        Id: 0db6c5a2-90db-496f-b755-f9c21e3416d4
+                    fef266f39ee3ccd95bc9a336e363d2d3: !RigidbodyComponent
+                        Id: 8dc73e07-1796-4c4d-a056-9ade7dbbe5c1
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            2661919ff98bf670ecb6a6f8f231f9d1: !SphereColliderShapeDesc
+                                Is2D: false
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
         -   Entity:
                 Id: 6dfc1021-4cdb-4b03-8c99-f5648a922998
                 Name: Flag01

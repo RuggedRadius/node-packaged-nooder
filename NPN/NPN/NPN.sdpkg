@@ -9,16 +9,11 @@ Meta:
 AssetFolders:
     -   Path: !dir Assets
     -   Path: !dir Effects
+    -   Path: !dir ../../../../../../../benro/source/repos/RuggedRadius/node-packaged-nooder/NPN/NPN/Assets
     -   Path: !dir Assets
     -   Path: !dir Assets
     -   Path: !dir Assets
-    -   Path: !dir Assets
-    -   Path: !dir Assets
-    -   Path: !dir Assets
-    -   Path: !dir Assets
-    -   Path: !dir Assets
-    -   Path: !dir Assets
-    -   Path: !dir C:/Users/benro/source/repos/RuggedRadius/node-packaged-nooder/NPN/NPN/Assets
+    -   Path: !dir C:/Users/JRhys/Documents/Stride Projects/Shared/node-packaged-nooder/NPN/NPN/Assets
 ResourceFolders:
     - !dir Resources
 OutputGroupDirectories: {}
