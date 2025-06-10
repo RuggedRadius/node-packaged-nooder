@@ -1,0 +1,19 @@
+!Model
+Id: c8cd3de9-9c04-437e-92ca-ff104ea51944
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file Flag01.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    fd5d68095c2470d4d33cebde11fdc98d:
+        Name: Material.001
+        MaterialInstance:
+            Material: 9efe2cc5-b7fb-4efb-8f2c-fb96d5d74209:Models/Material.001
+    52420ee4d51f28dbf22339ec3163a9bf:
+        Name: Material.002
+        MaterialInstance:
+            Material: 4db1390b-69f3-423d-a5d2-11a79487c882:Models/Material.002
+Modifiers: {}
+~SourceHashes:
+    fdb2104e7fae0bee37e6d4f93013d75e~Flag01.fbx: 074d81ee85e7e745c61e8c5324d8b7e8

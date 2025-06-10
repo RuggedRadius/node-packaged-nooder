@@ -1,0 +1,24 @@
+!Package
+SerializedVersion: {Assets: 3.1.0.0}
+Meta:
+    Name: NPN
+    Version: 1.0.0
+    Authors: []
+    Owners: []
+    Dependencies: null
+AssetFolders:
+    -   Path: !dir Assets
+    -   Path: !dir Effects
+    -   Path: !dir Assets
+    -   Path: !dir Assets
+    -   Path: !dir Assets
+    -   Path: !dir Assets
+    -   Path: !dir Assets
+    -   Path: !dir C:/Users/benro/source/repos/RuggedRadius/node-packaged-nooder/NPN/NPN/Assets
+ResourceFolders:
+    - !dir Resources
+OutputGroupDirectories: {}
+ExplicitFolders: []
+Bundles: []
+TemplateFolders: []
+RootAssets: []

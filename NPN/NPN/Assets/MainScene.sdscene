@@ -1,0 +1,179 @@
+!SceneAsset
+Id: 6bc6196c-ee30-4dce-a07a-cd649d0f0266
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! e551bf2f-64c6-47b4-9823-09cc293df9d0
+        - ref!! 5109a616-7275-4dc3-b716-25aff19ed54a
+        - ref!! b5353546-5089-4689-b2c8-694f49e16e78
+        - ref!! 00c27210-8669-4540-8dfb-2ade4fe3f550
+        - ref!! 59a16dbe-9e05-4de9-80c6-a75c8aa291ff
+        - ref!! 6dfc1021-4cdb-4b03-8c99-f5648a922998
+        - ref!! 244a90ed-5caf-4db6-bac0-19636128b91e
+        - ref!! cb256947-6bd9-4788-932b-a0bbbdff6d6f
+        - ref!! 7c7c0081-bb6d-4813-95bd-ce6bc46ad845
+    Parts:
+        -   Entity:
+                Id: 00c27210-8669-4540-8dfb-2ade4fe3f550
+                Name: Ground
+                Components:
+                    42eb6ea7013cc7c88c5e049d836836ed: !TransformComponent
+                        Id: 5fa65484-368e-4a55-badf-ac02f7e647e4
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    2d9024e6fae8c397d750cf525dd3e0a8: !ModelComponent
+                        Id: 65a69a4a-e1ea-4efe-bfae-a7b54bbef6b2
+                        Model: 14e30d13-11d0-409b-aa64-c9c8d623e6e5:Ground
+                        Materials: {}
+        -   Folder: null
+            Entity:
+                Id: 244a90ed-5caf-4db6-bac0-19636128b91e
+                Name: Flag01
+                Components:
+                    3fde44d71d0e86d83cbff92e89f0e742: !TransformComponent
+                        Id: f17306e0-e65d-41a4-813a-6f917ae7bb02
+                        Position: {X: 3.0, Y: 0.0, Z: 3.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    f535e1d7f3cd71b4c97727a4dee7b8a6: !ModelComponent
+                        Id: 47e26d2c-8670-443b-805a-4188d7c1b964
+                        Model: c8cd3de9-9c04-437e-92ca-ff104ea51944:Models/Flag01
+                        Materials: {}
+                    aa4ae09ed3391c87611b64a233be1580: !NPN.Scripts.Test.SpinnyFlag,NPN
+                        Id: 62a47a2d-ae60-4291-85ce-ee106743dea2
+        -   Entity:
+                Id: 5109a616-7275-4dc3-b716-25aff19ed54a
+                Name: Directional light
+                Components:
+                    50d2d721053140de6c656594cef5f558: !TransformComponent
+                        Id: 9afa2c97-a039-42f0-8d65-c470e83051c3
+                        Position: {X: 0.0, Y: 2.0, Z: 0.0}
+                        Rotation: {X: 1.131334E-08, Y: -0.9659258, Z: -0.25881904, W: -4.222196E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    2b8b9f75965252c4449fd5a63133be0b: !LightComponent
+                        Id: 8a420762-8e4b-4c21-b568-290d4c9ce661
+                        Type: !LightDirectional
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Shadow:
+                                Enabled: true
+                                Filter: !LightShadowMapFilterTypePcf
+                                    FilterSize: Filter5x5
+                                Size: Large
+                                DepthRange: {}
+                                PartitionMode: !LightDirectionalShadowMap.PartitionLogarithmic {}
+                                ComputeTransmittance: false
+                                BiasParameters: {}
+                        Intensity: 20.0
+        -   Entity:
+                Id: 59a16dbe-9e05-4de9-80c6-a75c8aa291ff
+                Name: Sphere
+                Components:
+                    c985b2a8430e5ca17e873b188a766dde: !TransformComponent
+                        Id: 69637cf3-3565-4b54-8daa-82b74773f573
+                        Position: {X: 0.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b63bc76875a184b268bb2b392ab7cdf2: !ModelComponent
+                        Id: 8dab0602-f38c-4b34-a187-8fd48b9f75f0
+                        Model: 7fb111e9-0301-483b-8cc6-7c12d9e32d8c:Sphere
+                        Materials: {}
+        -   Entity:
+                Id: 6dfc1021-4cdb-4b03-8c99-f5648a922998
+                Name: Flag01
+                Components:
+                    3fde44d71d0e86d83cbff92e89f0e742: !TransformComponent
+                        Id: b1347fa9-24c0-4f1a-ab69-cbb2e8aafc4c
+                        Position: {X: -3.0, Y: 0.0, Z: 3.0}
+                        Rotation: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    f535e1d7f3cd71b4c97727a4dee7b8a6: !ModelComponent
+                        Id: 25fc722d-1dcd-4458-a401-ce403253c12d
+                        Model: c8cd3de9-9c04-437e-92ca-ff104ea51944:Models/Flag01
+                        Materials: {}
+                    cf6feadf53f2766b368d766bd0f2ab9e: !NPN.Scripts.Test.SpinnyFlag,NPN
+                        Id: 7a2a8069-df07-42e2-b83f-b79d1423784b
+        -   Folder: null
+            Entity:
+                Id: 7c7c0081-bb6d-4813-95bd-ce6bc46ad845
+                Name: Flag01
+                Components:
+                    3fde44d71d0e86d83cbff92e89f0e742: !TransformComponent
+                        Id: b9723887-e8fc-441d-a397-2d1e501feea3
+                        Position: {X: 3.0, Y: 0.0, Z: -3.0}
+                        Rotation: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    f535e1d7f3cd71b4c97727a4dee7b8a6: !ModelComponent
+                        Id: 7586eacf-a70b-49e0-9c80-ecd92985d0ee
+                        Model: c8cd3de9-9c04-437e-92ca-ff104ea51944:Models/Flag01
+                        Materials: {}
+                    6902aa7e153321223dbf9adbf7947c10: !NPN.Scripts.Test.SpinnyFlag,NPN
+                        Id: 035bebd2-48eb-4b29-a0c3-5c8f40015ade
+        -   Entity:
+                Id: b5353546-5089-4689-b2c8-694f49e16e78
+                Name: Skybox
+                Components:
+                    72f30bbdd592f81e2fcef9a36a649637: !TransformComponent
+                        Id: 296c26a9-c689-4193-9798-ec0cda067ec5
+                        Position: {X: 0.0, Y: 2.0, Z: -2.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4fe61b01a0ba916afcce0111dcf242d6: !BackgroundComponent
+                        Id: be480dfc-a1e2-44a0-8c05-b4ec55f7d6f6
+                        Texture: b1fe88b4-93e9-49fb-8883-767d88273e88:Skybox texture
+                    afd0bb249f670abb95b9b2c9f6843422: !LightComponent
+                        Id: 7e66aa6c-3cf9-481b-b352-db7a4cb20784
+                        Type: !LightSkybox
+                            Skybox: 068d064e-8465-4ed9-bec7-cb73d632f223:Skybox
+        -   Folder: null
+            Entity:
+                Id: cb256947-6bd9-4788-932b-a0bbbdff6d6f
+                Name: Flag01
+                Components:
+                    3fde44d71d0e86d83cbff92e89f0e742: !TransformComponent
+                        Id: 21e6b0b4-f099-4803-8978-144591254a14
+                        Position: {X: -3.0, Y: 0.0, Z: -3.0}
+                        Rotation: {X: -0.0, Y: -0.70710677, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    f535e1d7f3cd71b4c97727a4dee7b8a6: !ModelComponent
+                        Id: 8bf3978a-7ed5-4857-a415-d132e6f987ef
+                        Model: c8cd3de9-9c04-437e-92ca-ff104ea51944:Models/Flag01
+                        Materials: {}
+                    5445c6fa76536528cffd2ebc4f00a43d: !NPN.Scripts.Test.SpinnyFlag,NPN
+                        Id: ed8f9958-3e79-4fed-92dd-ffcffacecd40
+        -   Entity:
+                Id: e551bf2f-64c6-47b4-9823-09cc293df9d0
+                Name: Camera
+                Components:
+                    36ef8214b75b7b295547e4ea73b60451: !TransformComponent
+                        Id: fb242c7b-6712-4790-bc14-b8aa5248da0b
+                        Position: {X: 28.47342, Y: 8.989227, Z: -0.7545756}
+                        Rotation: {X: -0.107682884, Y: 0.71212786, Z: 0.10228315, W: 0.6861607}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    0a187040e4fc846ee1bed5b0e23275f1: !CameraComponent
+                        Id: 7c3d0ba1-204b-4a5e-a980-0e765289dc04
+                        Name: null
+                        Projection: Perspective
+                        Slot: 02c75873-33c0-47ed-89d9-72fe75c2013b
+                    b9b6b06f71c4ee926449242c5a49e92a: !NPN.BasicCameraController,NPN
+                        Id: d21ee28c-1594-427a-9142-a95e2f6060ee
+                        Gamepad: false
+                        KeyboardMovementSpeed: {X: 5.0, Y: 5.0, Z: 5.0}
+                        TouchMovementSpeed: {X: 0.7, Y: 0.7, Z: 0.3}
+                        SpeedFactor: 5.0
+                        KeyboardRotationSpeed: {X: 3.0, Y: 3.0}
+                        MouseRotationSpeed: {X: 1.0, Y: 1.0}
+                        TouchRotationSpeed: {X: 1.0, Y: 0.7}
