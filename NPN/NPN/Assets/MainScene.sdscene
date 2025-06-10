@@ -88,7 +88,7 @@ Hierarchy:
                         Intensity: 20.0
         -   Entity:
                 Id: 59a16dbe-9e05-4de9-80c6-a75c8aa291ff
-                Name: Sphere
+                Name: Ball
                 Components:
                     c985b2a8430e5ca17e873b188a766dde: !TransformComponent
                         Id: 69637cf3-3565-4b54-8daa-82b74773f573
@@ -202,8 +202,8 @@ Hierarchy:
                         Name: null
                         Projection: Perspective
                         Slot: 02c75873-33c0-47ed-89d9-72fe75c2013b
-                    b9b6b06f71c4ee926449242c5a49e92a: !NPN.BasicCameraController,NPN
-                        Id: d21ee28c-1594-427a-9142-a95e2f6060ee
+                    8529248c3e3402afbe2a8b0f6c928c99: !NPN.BasicCameraController,NPN
+                        Id: ed6b4206-bc01-44a7-86ee-7d0f151e7d6c
                         Gamepad: false
                         KeyboardMovementSpeed: {X: 5.0, Y: 5.0, Z: 5.0}
                         TouchMovementSpeed: {X: 0.7, Y: 0.7, Z: 0.3}
