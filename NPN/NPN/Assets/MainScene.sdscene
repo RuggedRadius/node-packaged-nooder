@@ -16,6 +16,7 @@ Hierarchy:
         - ref!! cb256947-6bd9-4788-932b-a0bbbdff6d6f
         - ref!! 7c7c0081-bb6d-4813-95bd-ce6bc46ad845
         - ref!! 6068c5b1-f0a3-40b5-b5d2-e269925f2c0d
+        - ref!! c7590c96-da11-4223-afcb-7c6059baf31e
     Parts:
         -   Entity:
                 Id: 00c27210-8669-4540-8dfb-2ade4fe3f550
@@ -207,6 +208,27 @@ Hierarchy:
                         Id: 7e66aa6c-3cf9-481b-b352-db7a4cb20784
                         Type: !LightSkybox
                             Skybox: 068d064e-8465-4ed9-bec7-cb73d632f223:Skybox
+        -   Entity:
+                Id: c7590c96-da11-4223-afcb-7c6059baf31e
+                Name: Golf Drive
+                Components:
+                    f46aad71d70dd53b8f5438647f35d019: !TransformComponent
+                        Id: 38d081b9-0931-4c87-9def-f8ae83184169
+                        Position: {X: 0.7959828, Y: 0.0, Z: 6.3461566}
+                        Rotation: {X: 0.0, Y: 0.9999993, Z: 0.0, W: 0.0011963404}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    90c8bb3b17336036d7b0cb92b6f6f618: !ModelComponent
+                        Id: 74b22317-307e-4533-aa69-a32dbe8665a7
+                        Model: 0a7abb70-8016-4e8b-a9c8-053db9effc24:Models/Golfer/Golf Drive
+                        Materials: {}
+                    452749f8bd8355d5716c64cbd7d4603e: !AnimationComponent
+                        Id: dab0cd41-7487-4a3f-9c3f-ca4adf34aac6
+                        Animations:
+                            c3b3c354ed5c01ab88600a301cd9cb2f~Drive: 04ccee04-9e16-456e-88b4-6eb6eb773a9d:Models/Golfer/Golf Drive_mixamo.com
+                    f180306f3aa443ff5cd05518ae7493d7: !NPN.Scripts.Golfer.GolferController,NPN
+                        Id: 7553761b-0a62-4de0-ab02-ed1ccb0f614e
+                        Speed: 1.0
         -   Folder: null
             Entity:
                 Id: cb256947-6bd9-4788-932b-a0bbbdff6d6f
