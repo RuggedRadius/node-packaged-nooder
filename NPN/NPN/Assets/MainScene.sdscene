@@ -96,14 +96,15 @@ Hierarchy:
                         Id: 69637cf3-3565-4b54-8daa-82b74773f573
                         Position: {X: 0.0, Y: 6.079403, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
+                        Scale: {X: 0.3, Y: 0.3, Z: 0.3}
+                        Children:
+                            b60f7e1ff21476a279e373e9a0527f53: ref!! 5bd48940-21ab-4baa-844f-83d77fb8b0cf
                     b63bc76875a184b268bb2b392ab7cdf2: !ModelComponent
-                        Id: 8dab0602-f38c-4b34-a187-8fd48b9f75f0
+                        Id: ebd9d6bf-1c9e-4e2c-ac0a-81834e31ed83
                         Model: 7fb111e9-0301-483b-8cc6-7c12d9e32d8c:Sphere
                         Materials: {}
                     fef266f39ee3ccd95bc9a336e363d2d3: !RigidbodyComponent
-                        Id: 8dc73e07-1796-4c4d-a056-9ade7dbbe5c1
+                        Id: fc86279a-3482-49b0-bb73-b75e7694065e
                         CanSleep: false
                         Restitution: 0.0
                         Friction: 0.5
@@ -122,6 +123,10 @@ Hierarchy:
                             2661919ff98bf670ecb6a6f8f231f9d1: !SphereColliderShapeDesc
                                 Is2D: false
                                 LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+            Base:
+                BasePartAsset: a250966e-9c2c-4150-89ec-5fbef76e899c:GolfBall
+                BasePartId: 30b938dc-33e9-409a-a794-3eb2519a2411
+                InstanceId: 3c95a0f4-a9ee-4f27-80e1-ba6237c01b75
         -   Entity:
                 Id: 6068c5b1-f0a3-40b5-b5d2-e269925f2c0d
                 Name: Walking
@@ -192,6 +197,16 @@ Hierarchy:
                     6902aa7e153321223dbf9adbf7947c10: !NPN.Scripts.Test.SpinnyFlag,NPN
                         Id: 035bebd2-48eb-4b29-a0c3-5c8f40015ade
         -   Entity:
+                Id: b190483b-4f9e-4936-8e7c-b855d18504f0
+                Name: golfBallReset
+                Components:
+                    238f4d68a582786776f76ddf5ecee600: !TransformComponent
+                        Id: 5bd48940-21ab-4baa-844f-83d77fb8b0cf
+                        Position: {X: 0.89584374, Y: 0.0, Z: 5.6775966}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Entity:
                 Id: b5353546-5089-4689-b2c8-694f49e16e78
                 Name: Skybox
                 Components:
@@ -229,6 +244,10 @@ Hierarchy:
                     f180306f3aa443ff5cd05518ae7493d7: !NPN.Scripts.Golfer.GolferController,NPN
                         Id: 7553761b-0a62-4de0-ab02-ed1ccb0f614e
                         Speed: 1.0
+                        HitForce: 150.0
+                        golfBallPrefab: a250966e-9c2c-4150-89ec-5fbef76e899c:GolfBall
+                        golfBallReset: ref!! b190483b-4f9e-4936-8e7c-b855d18504f0
+                        GamePad: true
         -   Folder: null
             Entity:
                 Id: cb256947-6bd9-4788-932b-a0bbbdff6d6f
