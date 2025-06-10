@@ -1,0 +1,19 @@
+!Model
+Id: 951c3779-5865-494e-b79e-8cff62c5c36f
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file Walking.fbx
+Skeleton: e416791b-b848-4507-ac50-a4730ba64b57:Models/Zombies/Walking Skeleton
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    cf6219de7cf26d386b94137361ac6d0b:
+        Name: Beta_HighLimbsGeoSG3
+        MaterialInstance:
+            Material: 28bb0cdb-03dc-45d2-986a-5451daeff883:Models/Zombies/Beta_HighLimbsGeoSG3
+    f5310c16e8fabf32095a42de8967c8b9:
+        Name: Beta_Joints_MAT1
+        MaterialInstance:
+            Material: bb7c60ab-96d4-428d-abd9-e7563b956a0e:Models/Zombies/Beta_Joints_MAT1
+Modifiers: {}
+~SourceHashes:
+    b29c3cb18a074c2ec3293d3460fc1fc9~Walking.fbx: a50eb59e0bcac7735a7b60f5ea5f978b

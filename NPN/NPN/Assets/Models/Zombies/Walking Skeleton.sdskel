@@ -1,0 +1,77 @@
+!Skeleton
+Id: e416791b-b848-4507-ac50-a4730ba64b57
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file Walking.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    8ebc29170c9a2685099a12184e37d949: {Name: RootNode, Depth: 0}
+    c65ada5a8154bcda0f5a26303047fb76: {Name: Hips, Depth: 1}
+    6ca3c3d395775f53cf40f05d637caa00: {Name: Spine, Depth: 2}
+    236e1e9e83ac715e0bc607b7196068cd: {Name: Spine1, Depth: 3}
+    aaaf83d9531c29a42c8738cb4323bfde: {Name: Spine2, Depth: 4}
+    7103118384979e33ffc977612e2b639c: {Name: Neck, Depth: 5}
+    20a7a4ab99f8e496724a19989bb2ba9e: {Name: Head, Depth: 6}
+    64798ccf750a5740f43c857a68f4c67e: {Name: HeadTop_End, Depth: 7}
+    c40c2aca58c1a1460908c433279857ae: {Name: RightShoulder, Depth: 5}
+    999c58140150a191d8dfb395c19206f1: {Name: RightArm, Depth: 6}
+    90ccc7a6f849df0ba55a1fc524f15583: {Name: RightForeArm, Depth: 7}
+    2ca91cd933b90d134536b6727e9754ef: {Name: RightHand, Depth: 8}
+    e0df3e5143488616190453a2ebbbf06a: {Name: RightHandThumb1, Depth: 9}
+    f344e1858f53ff75abbd98cdf82be770: {Name: RightHandThumb2, Depth: 10}
+    58898082c04766da007f72b4f5ae0187: {Name: RightHandThumb3, Depth: 11}
+    d297d1562450e3c456e07e38274f5983: {Name: RightHandThumb4, Depth: 12}
+    2b38537d2d97821f70fbb440bb229bab: {Name: RightHandIndex1, Depth: 9}
+    c20f02f990879c163ca7980a98d2dbdd: {Name: RightHandIndex2, Depth: 10}
+    7c1efb2ac6dd3f915a1dce12ac04b932: {Name: RightHandIndex3, Depth: 11}
+    a967e63d60b91de82f7595236e9b79af: {Name: RightHandIndex4, Depth: 12}
+    ec0d6d311c0cfbc957551127f28ef7f9: {Name: RightHandMiddle1, Depth: 9}
+    aa7228d4922c67ec793999931f3c2366: {Name: RightHandMiddle2, Depth: 10}
+    68a12516772e3a408b5a13b5b5022c80: {Name: RightHandMiddle3, Depth: 11}
+    85194c16fa0e917a10b727d79ee04ddf: {Name: RightHandMiddle4, Depth: 12}
+    9f656ac3cda969e348c7541ac891c21d: {Name: RightHandRing1, Depth: 9}
+    77c9f5bbb8689e39cd7736d520467b8d: {Name: RightHandRing2, Depth: 10}
+    135204f6d915eae012c9fe88c060a099: {Name: RightHandRing3, Depth: 11}
+    0054e82da49668f1b0779babc8101c06: {Name: RightHandRing4, Depth: 12}
+    a8d853f7b15883bf39744ae854a18970: {Name: RightHandPinky1, Depth: 9}
+    79954a928d27ee33171576146067c189: {Name: RightHandPinky2, Depth: 10}
+    fd6a54422b95dc10e536d9546ca07693: {Name: RightHandPinky3, Depth: 11}
+    2903856eab81b93fd4a08425f13fb568: {Name: RightHandPinky4, Depth: 12}
+    a1591a73dcfb0fc1d1814ec91bf9f3a4: {Name: LeftShoulder, Depth: 5}
+    071bd6f50dd0d9127f438f75e2359a36: {Name: LeftArm, Depth: 6}
+    995c04b5855f7de2a677c0c125ade3bd: {Name: LeftForeArm, Depth: 7}
+    e9c09be69e8ce97054c1d104fca0cbfb: {Name: LeftHand, Depth: 8}
+    41f767331eb00bafea0b0ac459fab8f0: {Name: LeftHandThumb1, Depth: 9}
+    168e30ac154f00fbd44d8613e182c0d2: {Name: LeftHandThumb2, Depth: 10}
+    612542c782674c7714848056eb7fe609: {Name: LeftHandThumb3, Depth: 11}
+    42cd686831d17876cc6cc98ef12f3ab9: {Name: LeftHandThumb4, Depth: 12}
+    e0e708da0507bb6533555400fd938d9c: {Name: LeftHandIndex1, Depth: 9}
+    cb9f6e793d8b05455669ae5af64ab00d: {Name: LeftHandIndex2, Depth: 10}
+    7d6219306d81fb8f4560c48e0d76793f: {Name: LeftHandIndex3, Depth: 11}
+    ac86e52dab6282dfa0d1b18d5a5ba58c: {Name: LeftHandIndex4, Depth: 12}
+    7d15528765fbb73c18506387ec1dcd66: {Name: LeftHandMiddle1, Depth: 9}
+    69e3c05236a8c46edaebd63e637f0b98: {Name: LeftHandMiddle2, Depth: 10}
+    05acba5a4a63d1812da3a40cf13ccebe: {Name: LeftHandMiddle3, Depth: 11}
+    2e68b1514e54f089809c0dc349af5661: {Name: LeftHandMiddle4, Depth: 12}
+    de640931cc0af73d6546b9bbe9754dbf: {Name: LeftHandRing1, Depth: 9}
+    09fe2a0a2f4e86e29d5cd74776c90d35: {Name: LeftHandRing2, Depth: 10}
+    2146e388cb3a2b0c9c3dc6ebcc8dcb82: {Name: LeftHandRing3, Depth: 11}
+    ca6493026ae5f6729de32c97b909e02e: {Name: LeftHandRing4, Depth: 12}
+    534919ab2f731c60e87e366a436ff80f: {Name: LeftHandPinky1, Depth: 9}
+    5abbc3cced06eb0fd80dcfa15a48a28c: {Name: LeftHandPinky2, Depth: 10}
+    87627b9cf5a8c0640a9da5c143cdb13a: {Name: LeftHandPinky3, Depth: 11}
+    dbb39c52f670f7c8f59b2f7153e71dc5: {Name: LeftHandPinky4, Depth: 12}
+    4f937388aea49a0227193646e3aca75a: {Name: RightUpLeg, Depth: 2}
+    ac08e476d6ed04af8a80554908059f4c: {Name: RightLeg, Depth: 3}
+    5a99d663846f6c640eec0ccaeff0514f: {Name: RightFoot, Depth: 4}
+    7d16ffec29b02fcb2eaa525b7127b352: {Name: RightToeBase, Depth: 5}
+    6f5c0bf851a681d3d1e30e47746b0045: {Name: RightToe_End, Depth: 6}
+    3eb9d2091b88dc763f1b098f05755f1d: {Name: LeftUpLeg, Depth: 2}
+    14bd8a42e769980e6a774b781fb3234e: {Name: LeftLeg, Depth: 3}
+    c4576d2ec5ae399d634b2ac9b351a158: {Name: LeftFoot, Depth: 4}
+    339f38ebef9ef1a0670e69aca8a8f1b8: {Name: LeftToeBase, Depth: 5}
+    6cd2b43d7a9224a1e6d0b15cb03d5231: {Name: LeftToe_End, Depth: 6}
+    24e89265425b23ca91f8f600f273551e: {Name: Beta_Surface, Depth: 1}
+    4479c8d4622467b0766194a3dc87723c: {Name: Beta_Joints, Depth: 1}
+~SourceHashes:
+    a43dd939bbe2a33c1dc4a072706a193f~Walking.fbx: a50eb59e0bcac7735a7b60f5ea5f978b

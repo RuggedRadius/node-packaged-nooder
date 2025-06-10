@@ -1,0 +1,20 @@
+!Animation
+Id: 47b08e53-dc69-41a1-9419-b52d41105dad
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file Walking.fbx
+AnimationStack: 0
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: e416791b-b848-4507-ac50-a4730ba64b57:Models/Zombies/Walking Skeleton
+RootMotion: false
+PreviewModel: 951c3779-5865-494e-b79e-8cff62c5c36f:Models/Zombies/Walking
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:04.0333300
+~SourceHashes:
+    0c11604d893feebb1e20bf0fe2ac403c~Walking.fbx: a50eb59e0bcac7735a7b60f5ea5f978b

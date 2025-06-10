@@ -15,6 +15,7 @@ Hierarchy:
         - ref!! 244a90ed-5caf-4db6-bac0-19636128b91e
         - ref!! cb256947-6bd9-4788-932b-a0bbbdff6d6f
         - ref!! 7c7c0081-bb6d-4813-95bd-ce6bc46ad845
+        - ref!! 6068c5b1-f0a3-40b5-b5d2-e269925f2c0d
     Parts:
         -   Entity:
                 Id: 00c27210-8669-4540-8dfb-2ade4fe3f550
@@ -120,6 +121,42 @@ Hierarchy:
                             2661919ff98bf670ecb6a6f8f231f9d1: !SphereColliderShapeDesc
                                 Is2D: false
                                 LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+        -   Entity:
+                Id: 6068c5b1-f0a3-40b5-b5d2-e269925f2c0d
+                Name: Walking
+                Components:
+                    d64d9405f385bf720a973c114d297d55: !TransformComponent
+                        Id: 1d1990ee-283d-4606-b1b9-7acb05ac66dc
+                        Position: {X: -0.32909584, Y: 0.0, Z: -0.24178982}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 2.303861, Y: 2.303861, Z: 2.303861}
+                        Children: {}
+                    b74f4856fd4b2f15a229e2e79b80258a: !ModelComponent
+                        Id: 0150faf7-ff3a-4c14-ab62-15b6c41c812f
+                        Model: 951c3779-5865-494e-b79e-8cff62c5c36f:Models/Zombies/Walking
+                        Materials:
+                            567b2b317630e5a9d2286524e160183c~0: 28bb0cdb-03dc-45d2-986a-5451daeff883:Models/Zombies/Beta_HighLimbsGeoSG3
+                            ea1df9d00c304be203fd04cdca9db357~1: bb7c60ab-96d4-428d-abd9-e7563b956a0e:Models/Zombies/Beta_Joints_MAT1
+                    9c7d7140de5ef8f277a331c7ce1d4e11: !AnimationComponent
+                        Id: 54545d87-8812-4454-a68f-074843b439bd
+                        Animations:
+                            6c1719582e3cbf3e6d31c48996b94c32~Walk: 47b08e53-dc69-41a1-9419-b52d41105dad:Models/Zombies/Walking_mixamo.com
+                    c529c5b802f72b6d798b4a842be50421: !StaticColliderComponent
+                        Id: 4c61335a-336b-4e25-a645-cb4b509a27aa
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            8639e006635150f50b66c4c644bd3ccb: !StaticMeshColliderShapeDesc
+                                Model: 951c3779-5865-494e-b79e-8cff62c5c36f:Models/Zombies/Walking
+                    f200d901e29b28ec3c61042b1feff787: !NPN.Scripts.Zombies.ZombieController,NPN
+                        Id: dcf6d1dc-44fe-49aa-9eb8-22f75da760e6
+                        Speed: 1.0
         -   Entity:
                 Id: 6dfc1021-4cdb-4b03-8c99-f5648a922998
                 Name: Flag01
